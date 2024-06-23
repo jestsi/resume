@@ -3,7 +3,7 @@
     <div class="q-gutter-md">
       <div id="main">
         <h1 class="q-ma-0">
-          <q-icon name="img:src\assets\hello_512.png" /> Привет, я Гуц Максим
+          <q-icon name="img:/hello_512.png" /> Привет, я Гуц Максим
         </h1>
         <p>
           Я опытный веб-разработчик с более чем четырехлетним опытом кодинга, из
@@ -24,13 +24,9 @@
             <q-icon
               size="3rem"
               default="PGSQL"
-              name="img:src\assets\vue-js-seeklogo.svg"
+              name="img:/vue-js-seeklogo.svg"
             />
-            <q-icon
-              size="3rem"
-              default="PGSQL"
-              name="img:src\assets\favicon-dark.svg"
-            />
+            <q-icon size="3rem" default="PGSQL" name="img:/favicon-dark.svg" />
           </li>
           <li>
             <strong>Бэкенд</strong>:
@@ -45,12 +41,12 @@
             <q-icon
               size="3rem"
               default="PGSQL"
-              name="img:src\assets\postgresql-svgrepo-com.svg"
+              name="img:/postgresql-svgrepo-com.svg"
             />,
             <q-icon
               size="5rem"
               default="MYSQL"
-              name="img:src\assets\mysql-svgrepo-com.svg"
+              name="img:/mysql-svgrepo-com.svg"
             />
           </li>
           <li>
