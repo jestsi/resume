@@ -79,6 +79,7 @@ module.exports = configure(function (/* ctx */) {
           viteConf.css.preprocessorOptions.scss || {};
         viteConf.css.preprocessorOptions.scss.additionalData = `
           @import 'src/css/quasar.variables.scss';
+          @import 'src/assets/icons.scss';
         `;
       },
       // viteVuePluginOptions: {},
