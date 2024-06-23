@@ -12,14 +12,35 @@
 // to match your app's branding.
 // Tip: Use the "Theme Builder" on Quasar's documentation website.
 
-$primary   : #1976D2;
-$secondary : #26A69A;
-$accent    : #9C27B0;
+$primary: #0ca4c7; // Example primary color from the image
+$secondary: #02779e; // Example secondary color from the image
+$background: linear-gradient(
+  to bottom,
+  #e0f7fa,
+  #ffffff
+); // Example background color from the image
+$text: #005662;
 
-$dark      : #1D1D1D;
-$dark-page : #121212;
+$accent: #e91e63;
 
-$positive  : #21BA45;
-$negative  : #C10015;
-$info      : #31CCEC;
-$warning   : #F2C037;
+$dark: #2c003e;
+$dark-page: #1a001f;
+
+$positive: #9c27b0;
+$negative: #e040fb;
+$info: #ce93d8;
+$warning: #f48fb1;
+
+// для тем
+
+$primary: #0ca4c7 !default;
+$secondary: #02779e !default;
+$accent: #e91e63 !default;
+$dark: #2c003e !default;
+$dark-page: #1a001f !default;
+$positive: #9c27b0 !default;
+$negative: #e040fb !default;
+$info: #ce93d8 !default;
+$warning: #f48fb1 !default;
+$background: linear-gradient(to bottom, #e0f7fa, #ffffff) !default;
+$text: #005662 !default;
